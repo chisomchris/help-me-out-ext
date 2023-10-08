@@ -1,0 +1,23 @@
+{
+  "name": "help-me-out",
+  "version": "1.0.0",
+  "description": "This extension helps you record and share help videos with ease.",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "content-css": "npx tailwindcss -i ./src/styles/content.input.css -o ./build/styles/content.css --watch",
+    "popup-css": "npx tailwindcss -i ./src/styles/popup.input.css -o ./build/styles/popup.css --watch",
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "ScreenRecord"
+  ],
+  "author": "christianchisom278@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2"
+  }
+}

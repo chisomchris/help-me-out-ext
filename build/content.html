@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/content.css" />
+  </head>
+  <body>
+    <div
+      class="fixed bottom-0 left-0 pl-12 grid grid-cols-12 items-center group h-[220px] hide"
+    >
+      <div
+        class="bg-[#efefef] w-[156px] aspect-square rounded-full mr-12 col-span-3 border-solid border-2 border-[#B6B6B6] group-[.hide]:hidden"
+      ></div>
+      <div
+        class="border-solid border-[8px] border-[#eaeaea]] bg-[#141414] h-[102px] w-[567px] flex col-span-8 rounded-full pr-[40px] pt-[12px] pb-[12px] pl-[16px]"
+      >
+        <div
+          class="h-[56px] w-[153px] flex items-center justify-center border-r-[2px] border-r-solid border-r-white"
+        >
+          <p class="text-[20px] text-white font-medium">00:03:45</p>
+          <div class="relative group playing ml-4 w-[20px] h-[20px]">
+            <div
+              class="absolute w-[20px] h-[20px] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 aspect-auto rounded-full z-50 bg-[#c0040470] group-[.playing]:ping group-[.playing]:pulsate"
+            ></div>
+            <div
+              class="block w-[10px] absolute z-[1] top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 h-[10px] aspect-auto rounded-full bg-[#c00404]"
+            ></div>
+          </div>
+        </div>
+        <!-- controls -->
+        <div class="flex flex-col items-center gap-1 ml-7">
+          <button
+            class="m-0 bg-white h-[44px] aspect-square rounded-full grid place-items-center"
+          >
+            <img alt="" src="assets/pause.png" />
+          </button>
+          <p class="mt-0 leading-none text-white text-[12px] font-bold">
+            Pause
+          </p>
+        </div>
+        <div class="flex flex-col items-center gap-1 ml-7">
+          <button
+            class="m-0 bg-white h-[44px] aspect-square rounded-full grid place-items-center"
+          >
+            <img alt="" src="assets/stop.png" />
+          </button>
+          <p class="mt-0 leading-none text-white text-[12px] font-bold">Stop</p>
+        </div>
+        <div class="flex flex-col items-center gap-1 ml-7">
+          <button
+            class="m-0 bg-white h-[44px] aspect-square rounded-full grid place-items-center"
+          >
+            <img alt="" src="assets/camera.png" />
+          </button>
+          <p class="mt-0 leading-none text-white text-[12px] font-bold">
+            Camera
+          </p>
+        </div>
+        <div class="flex flex-col items-center gap-1 ml-7">
+          <button
+            class="m-0 bg-white h-[44px] aspect-square rounded-full grid place-items-center"
+          >
+            <img alt="" src="assets/microphone.png" />
+          </button>
+          <p class="mt-0 leading-none text-white text-[12px] font-bold">Mic</p>
+        </div>
+
+        <button
+          class="aspect-square h-[44px] rounded-full ml-6 grid place-items-center bg-[#4B4B4B]"
+        >
+          <img src="assets/trash.png" />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

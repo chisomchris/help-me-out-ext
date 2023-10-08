@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.switch {
+  @apply bg-[#928FAB] rounded-full h-6 w-10 relative;
+}
+.switch.active {
+  @apply bg-[#120B48];
+}
+.switch span {
+  @apply absolute h-5 aspect-square rounded-full bg-white left-[2px] top-1/2 -translate-y-1/2;
+}
+.switch.active span {
+  @apply left-auto right-[2px] top-1/2 -translate-y-1/2;
+}
